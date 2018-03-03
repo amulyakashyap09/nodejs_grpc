@@ -1,0 +1,16 @@
+{
+  "name": "custom-grpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "grpc": "^1.9.1",
+    "mongoose": "^4.4.3"
+  }
+}
