@@ -19,7 +19,7 @@ server.addService(proto.employees.EmployeesService.service, {
 				employee_id: call.request.employee_id
 			},
 			projections: {
-				name: 1, id: 1, email: 1, _id: 1
+				_id : 0, __v : 0
 			},
 			options: {
 				lean: true
