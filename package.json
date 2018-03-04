@@ -1,16 +1,32 @@
 {
-  "name": "custom-grpc",
+  "name": "db-grpc",
   "version": "1.0.0",
-  "description": "",
+  "description": "grpc implementation using nodejs for both server and client",
   "main": "server/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.1",
     "grpc": "^1.9.1",
     "mongoose": "^4.4.3"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amulyakashyap09/nodejs_grpc.git"
+  },
+  "keywords": [
+    "grpc",
+    "nodejs",
+    "client",
+    "server",
+    "microservices"
+  ],
+  "author": "Amulya Kashyap <amulyakashyap09@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amulyakashyap09/nodejs_grpc/issues"
+  },
+  "homepage": "https://github.com/amulyakashyap09/nodejs_grpc#readme"
 }
