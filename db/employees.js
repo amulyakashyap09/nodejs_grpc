@@ -7,12 +7,12 @@ let Employee = class {
 	static list(cb) {
 		const criteria = {};
 		const projections = {
-			_id: 1,
-			employee_id: 1,
-			name: 1,
-			email: 1,
+			_id: 0,
+			__v: 0
 		};
-		const options = {};
+		const options = {
+			lean : true
+		};
 		employeeModel.find(criteria, projections, options, cb);
 	}
 
