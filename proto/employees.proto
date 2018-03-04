@@ -6,7 +6,7 @@ package employees; //Optional: unique package name.
 service EmployeesService {
   rpc List (Empty) returns (EmployeeList);
   rpc Insert (Employee) returns (Empty);
-  rpc Get (EmployeeId) returns (Employee);
+  rpc Get (EmployeeId) returns (EmployeeList);
   rpc Remove (EmployeeId) returns (Empty);
 }
 
@@ -18,7 +18,7 @@ message Employee {
 }
 
 message EmployeeList {
-  repeated Employee EmployeeList = 1;
+  repeated Employee employee = 1;
 }
 
 message EmployeeId {
